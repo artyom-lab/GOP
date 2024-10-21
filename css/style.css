@@ -23,12 +23,12 @@ img {
   height: auto; }
 
 body {
-  font-family: "Cabin-Regular", sans-serif;
+  font-family: "Open+Sans", sans-serif;
   display: flex;
   color: #0b162c;
   flex-direction: column;
   min-height: 100vh;
-  font-size: 20px; }
+  font-size: 19px; }
   @media (max-width: 767.98px) {
     body {
       font-size: 16px; } }
@@ -142,14 +142,17 @@ a {
       font-size: 32px; } }
 
 .h3, h3 {
-  font-size: 40px; }
+  font-size: 40px;
+  font-family: "Cabin-Regular", sans-serif; }
 
 .h4, h4 {
   font-size: 21px;
+  font-family: "Cabin-Bold", sans-serif;
   font-weight: bold; }
 
 .h5, h5 {
-  font-size: 20px;
+  font-family: "Cabin-Bold", sans-serif;
+  font-size: 21px;
   font-weight: bold; }
 
 .h6, h6 {
@@ -294,6 +297,7 @@ a {
   background-size: cover;
   background-position: bottom center;
   min-height: 410px;
+  font-size: 18px;
   padding-bottom: 40px;
   z-index: 1; }
   .header-gray > .container {
@@ -418,7 +422,7 @@ a {
   padding: 0 30px 30px 0;
   height: 100%;
   position: relative;
-  line-height: 1.2; }
+  line-height: 1.3; }
   @media (max-width: 991.98px) {
     .box-resources {
       padding: 30px; } }
@@ -447,6 +451,8 @@ a {
   height: 100%; }
   .data-card img {
     width: 40px; }
+  .data-card h5 {
+    font-size: 20px; }
 
 .bg-img {
   background-size: cover;
