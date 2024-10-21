@@ -1,4 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;700;900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;700;900&display=swap')
+
+@font-face
+	font-family: 'Cabin-Regular'
+	src: url('../fonts/Cabin-Regular.ttf')
+	font-weight: 400
+
+@font-face
+	font-family: 'Cabin-Medium'
+	src: url('../fonts/Cabin-Medium.ttf')
+	font-weight: 500
+	
+@font-face
+	font-family: 'Cabin-SemiBold'
+	src: url('../fonts/Cabin-SemiBold.ttf')
+	font-weight: 600
+	
+@font-face
+	font-family: 'Cabin-Bold'
+	src: url('../fonts/Cabin-Bold.ttf')
+	font-weight: 700
+
+
 
 $transition: .3s
 
@@ -19,7 +41,7 @@ img
 	height: auto
 
 body 
-	font-family: 'Roboto', sans-serif
+	font-family: 'Cabin-Regular', sans-serif
 	display: flex
 	color: $color-black2
 	flex-direction: column
@@ -101,7 +123,7 @@ a
 
 .fz-13
 	font-size: 13px
-.fz-14
+.fz-15
 	font-size: 14px
 .fz-18
 	font-size: 18px
@@ -116,8 +138,8 @@ a
 			color: $color-black
 
 .h1, h1 
-	font-family: 'Raleway', sans-serif
-	font-size: 60px
+	font-family: 'Cabin-Bold', sans-serif
+	font-size: 68px
 	font-weight: bold
 	@media (max-width: 767.98px)
 		font-size: 40px
@@ -125,8 +147,8 @@ a
 		color: $color-white
 
 .h2, h2 
-	font-family: 'Raleway', sans-serif
-	font-size: 48px
+	font-family: 'Cabin-Bold', sans-serif
+	font-size: 50px
 	font-weight: bold
 	@media (max-width: 767.98px)
 		font-size: 32px
@@ -141,6 +163,11 @@ a
 .h5, h5 
 	font-size: 20px
 	font-weight: bold
+
+.h6, h6 
+	font-size: 18px
+	font-weight: bold
+	font-family: 'Open+Sans', sans-serif
 
 .navbar 
 	padding: 24px 0
@@ -242,9 +269,11 @@ a
 		@media (max-width: 767.98px)
 			padding-top: 110px
 	.content
+		font-family: 'Cabin-Regular', sans-serif
 		position: relative
 		z-index: 2
-		font-size: 28px
+		font-size: 30px
+		line-height: 1.2
 		font-weight: 300
 		@media (max-width: 767.98px)
 			font-size: 20px
@@ -390,6 +419,7 @@ a
 	padding: 0 30px 30px 0
 	height: 100%
 	position: relative
+	line-height: 1.2
 	@media (max-width: 991.98px)
 		padding: 30px
 	&:before 
